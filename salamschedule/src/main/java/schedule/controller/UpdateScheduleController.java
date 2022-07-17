@@ -47,7 +47,7 @@ public class UpdateScheduleController extends HttpServlet {
 		// TODO Auto-generated method stub
 		Schedule s = new Schedule();		
 		s.setScheduleDate(request.getParameter("Scheduledate"));
-		s.setPrayerID(Integer.parseInt(request.getParameter("prayerid"));
+		s.setPrayerID(Integer.parseInt(request.getParameter("prayerid")));
 		s.setStaffID(request.getParameter("staffid"));
 		
 		
